@@ -9,23 +9,25 @@ body{
 }
 .calculadora_gatinho{
     width: 400px;
-    background-image: url('/Imagens/background_calculadora.jpeg');
+    background-image: url('/Imagens/background_calculadora.png');
     background-size: cover;
     height: 590px;
 }
 #calculadora{
     width: 270px;
     height: auto;
-    margin: 120px auto 10px auto;
+    margin: 150px auto 10px auto;
     text-align: right;
-    background-color: #F49BCB;
+    background-color: #978e93;
     color: #ffffff;
+    -webkit-box-shadow: -3px 2px 0px 4px rgba(112, 96, 105, 0.62);
+    box-shadow: -3px 2px 0px 4px rgba(143, 126, 135, 0.62);
 }
 #container_botoes{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     width: 270px;
-    margin: 30px auto auto auto;
+    margin: 40px auto auto auto;
     gap: 15px;
 }
 button{
@@ -35,19 +37,21 @@ button{
     background-color: #ffffff;
 }
 .botao_gatinho{
-    background-image: url('/Imagens/botao_gatinho.jpeg') ; 
+    background-image: url('/Imagens/botao_gatinho.png') ; 
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: transparent;
     border: none ;
     color: #ffffff;
     font-size: 23px;
-    }
+}
 .botao_feijao{
-    background-image: url('/Imagens/botao_feijao.jpeg') ;
+    background-image: url('/Imagens/botao_feijao.png') ;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: transparent;
     border: none;
     color: #F49BCB;
     font-size: 20px;
@@ -58,8 +62,8 @@ button{
     color:#F49BCB;
     font-weight: 700;
     border-radius: 50%;
-    -webkit-box-shadow: -3px 2px 0px 4px rgba(244,155,203,0.62); 
-    box-shadow: -3px 2px 0px 4px rgba(244,155,203,0.62);
+    -webkit-box-shadow: -3px 2px 0px 4px rgba(112, 96, 105, 0.62); 
+    box-shadow: -3px 2px 0px 4px rgba(143, 126, 135, 0.62);
     font-size: 30px;
 }
 .numero{
@@ -68,8 +72,8 @@ button{
     color: #ffffff;
     font-weight: 700;
     border-radius: 5px;
-    -webkit-box-shadow: -3px 2px 0px 4px rgba(244,155,203,0.62); 
-    box-shadow: -3px 2px 0px 4px rgba(244,155,203,0.62);
+    -webkit-box-shadow: -3px 2px 0px 4px rgba(112, 96, 105, 0.62); 
+    box-shadow: -3px 2px 0px 4px rgba(143, 126, 135, 0.62);
     font-size: 30px;
 }
 .rodape{
